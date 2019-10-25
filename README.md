@@ -36,6 +36,7 @@ Blockchain is a decentralized, distributed store of transaction data. Periodical
 
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes. Smart Contracts implement the semantics of a "contract" and action requests are automatically stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled for WebAssembly, that nodes can execute.
 
+#
 
 EOSIO
 -----------------
