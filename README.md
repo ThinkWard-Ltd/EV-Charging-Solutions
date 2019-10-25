@@ -24,8 +24,9 @@ Node.js
 ----------
 Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications
 
+#
 
-Blockchain Stack
+Blockchain Stack:
 -----------------
 
 ### What is Blockchain?
