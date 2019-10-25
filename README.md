@@ -3,7 +3,7 @@ EV Charging Solution
 
 Smart Energy charging is a blockchain-based IoT-platform consists of two parts: JavaScript app and eosio blockchain.
 
-- avaScript Stack:  ReactJS, Redux, NodeJS, Webpack
+- JavaScript Stack:  ReactJS, Redux, NodeJS, Webpack
 - Blockchain Stack: EOSIO , IPFS, NODEOS, C++, ABI, Scatter
 
 Users interact with the UI in client and sign the transaction in frontend. The signed transaction is sent to the blockchain directly. After the transaction is accepted in blockchain, the note is added into the multi index table in blockchain.
