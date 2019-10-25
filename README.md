@@ -32,8 +32,8 @@ Blockchain Stack
 Blockchain is a decentralized, distributed store of transaction data. Periodically a new block of transactions is created and connected to the previous block. It is distributed because the blockchain stores transactions across many computers. It is decentralized because the blockchain infrastructure is not owned by one company. Blockchain provides trust; cryptography and consensus ensures that transactions are immutable. Blockchain provides resilience and transparency; decentralization and distribution mean many copies of the blockchain are available for all to see.
 
 
-What is a Smart Contract?
---------------------------
+### What is a Smart Contract?
+
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes. Smart Contracts implement the semantics of a "contract" and action requests are automatically stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled for WebAssembly, that nodes can execute.
 
 
