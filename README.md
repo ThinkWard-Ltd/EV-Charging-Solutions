@@ -25,18 +25,19 @@ Node.js
 Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications
 
 
-
 Blockchain Stack
 -----------------
-What is Blockchain?
+
+### What is Blockchain?
+
 Blockchain is a decentralized, distributed store of transaction data. Periodically a new block of transactions is created and connected to the previous block. It is distributed because the blockchain stores transactions across many computers. It is decentralized because the blockchain infrastructure is not owned by one company. Blockchain provides trust; cryptography and consensus ensures that transactions are immutable. Blockchain provides resilience and transparency; decentralization and distribution mean many copies of the blockchain are available for all to see.
+
 
 EOSIO
 -----------------
 The EOSIO software introduces a new blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. It differs from other blockchains by using features such as DPos as the consensus algorithm and staking for resource allocation. The software provides accounts, authentication, databases, asynchronous communication, and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees, and allows for quick and easy deployment of decentralized applications.
 
  
-
 What is a Smart Contract?
 --------------------------
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes. Smart Contracts implement the semantics of a "contract" and action requests are automatically stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled for WebAssembly, that nodes can execute.
@@ -75,15 +76,18 @@ Nodeos is the core EOSIO node daemon. Plugins can be used to configure nodeos to
 
 Keosd is a key manager for EOSIO accounts that comes with EOSIO. Cleos is a command-line tool which let developers interact nodeos as well as deploy, test EOSIO smart contracts.
  
+#
 
 EOSJS
 -------
 A Javascript API SDK for integration with EOSIO-based blockchains using the EOSIO RPC API.
 
+
 #### Scatter:
 
 Scatter wallet for digital currencies and assets. It’s a multi-blockchain signature, identity, and reputation provider for Windows, Mac, Linux, Android, and iOS.
 
+#
 
 Smart Contract Integration:
 ----------------------------
